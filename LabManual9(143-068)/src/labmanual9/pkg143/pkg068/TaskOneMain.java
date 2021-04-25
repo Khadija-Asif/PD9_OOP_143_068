@@ -30,7 +30,7 @@ public class TaskOneMain {
         System.out.println("Enter subString to check whether it is available in the String or not: ");
         s1 = obj.nextLine();
         S.findSubString(s, s1);
-        System.out.println("Hello world");
+        System.out.println("Hello");
     }
 
 }
