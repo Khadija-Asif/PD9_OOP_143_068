@@ -28,6 +28,10 @@ public class TaskThreeMain {
         System.out.println("Input String: ");
         s = obj.nextLine();
         t.removeInteger(s);
+        String s2;
+        System.out.println("Input String: ");
+        s2 = obj.nextLine();
+        t.stringEncryption(s2);
     }
 
 }

@@ -53,4 +53,21 @@ public class stringMethodsThree {
         return str;
     }
 
+    /**
+     * Function which take input string and change into encrypted string
+     * @param s
+     * @return 
+     */
+    String stringEncryption(String s)
+    {
+        char[] str = s.toCharArray();
+        for(int i = 0 ; i<str.length ;i++ )
+        {
+            str[i] = (char) (s.charAt(i)+5);
+        }
+        String inp = str.toString();
+        System.out.println(inp);
+        return inp;
+    }
+    
 }
